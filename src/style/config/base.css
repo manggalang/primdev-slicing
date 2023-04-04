@@ -46,6 +46,11 @@ span {
   margin: 0;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 @media print {
   *,
   *::before,

@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0 44px 0;
+}
+
+nav #nav-menu{
+    width: 624px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
