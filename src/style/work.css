@@ -1,0 +1,20 @@
+.work-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.work-card-title {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.work-card-desc {
+    margin-top: 20px;
+}
+
+.work-card-btn {
+    display: block;
+    margin-top: 52px;
+}

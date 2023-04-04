@@ -1,0 +1,23 @@
+.banner{
+    background: url('../images/banner-bg.jpg');
+    background-color: aqua;
+    background-size: cover;
+    height: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 0 291px;
+}
+
+.banner #intro #sub-content{
+    width: 567px;
+    margin-bottom: 22px;
+}
+
+.banner #intro #sub-content h1{
+    font-size: 85px;
+}
+
+.banner #intro #sub-content span{
+    font-size: 22px;
+}
