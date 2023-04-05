@@ -1,0 +1,30 @@
+.stats-section {
+    background-color: var(--neutral);
+    height: 457px;
+    padding: 150px 0;
+}
+
+.stats-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+.data {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.data h1 {
+    color: var(--primary);
+    font-size: 85px;
+    font-weight: normal;
+}
+
+.data p {
+    font-size: 22;
+}
+
+.vl {
+    border-left: 2px solid var(--primary);
+    height: 120px;
+}
