@@ -23,7 +23,7 @@
   }
 }
 
-/* .banner-section::before {
+.banner-section::before {
   content: "";
   background-image: url("../images/hero-overlay.svg");
   background-size: 4px;
@@ -33,7 +33,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
-} */
+}
 
 .banner-section .container {
   z-index: 10;
@@ -45,9 +45,11 @@
 }
 
 .banner-section #intro #sub-content h1 {
+  color: white;
   font-size: 85px;
 }
 
 .banner-section #intro #sub-content span {
+  color: rgba(255, 255, 255, 0.7);
   font-size: 22px;
 }

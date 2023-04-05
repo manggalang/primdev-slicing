@@ -1,0 +1,63 @@
+.project-section {
+    padding: 150px 0;
+}
+
+.project-section .section-title {
+    margin: auto;
+    text-align: center;
+    width: 737px;
+}
+
+.section-title #title {
+    font-size: 50px;
+}
+
+.section-title #sub-title {
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.project-card-container {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 105px;
+    grid-row-gap: 56px;
+    justify-content: center;
+    margin-top: 94px;
+}
+
+.project-card {
+    width: 525px;
+}
+
+.project-card #card-image {
+    border-radius: 0 0 80px 0;
+    height: 552px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.project-card .card-bottom {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.card-desc #name {
+    font-weight: normal;
+}
+
+.card-desc #category {
+    font-size: 22px;
+}
+
+.card-btn #btn {
+    background-color: var(--neutral);
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+    padding: 26px 33px;
+}
