@@ -1,23 +1,53 @@
-.banner{
-    background: url('../images/banner-bg.jpg');
-    background-color: aqua;
-    background-size: cover;
-    height: 1024px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    border-radius: 0 0 0 291px;
+.banner-section {
+  align-items: center;
+  animation: myHero 10s infinite;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 0 290px;
+  display: flex;
+  height: 90vh;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
 }
 
-.banner #intro #sub-content{
-    width: 567px;
-    margin-bottom: 22px;
+@keyframes myHero {
+  0% {
+    background-image: url("../images/hero01.jpg");
+  }
+  50% {
+    background-image: url("../images/hero02.jpg");
+  }
+  100% {
+    background-image: url("../images/hero01.jpg");
+  }
 }
 
-.banner #intro #sub-content h1{
-    font-size: 85px;
+/* .banner-section::before {
+  content: "";
+  background-image: url("../images/hero-overlay.svg");
+  background-size: 4px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+} */
+
+.banner-section .container {
+  z-index: 10;
 }
 
-.banner #intro #sub-content span{
-    font-size: 22px;
+.banner-section #intro #sub-content {
+  width: 567px;
+  margin-bottom: 22px;
+}
+
+.banner-section #intro #sub-content h1 {
+  font-size: 85px;
+}
+
+.banner-section #intro #sub-content span {
+  font-size: 22px;
 }

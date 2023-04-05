@@ -1,20 +1,51 @@
+.work-section {
+  padding: 200px 0 100px;
+}
+
 .work-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.work-card {
+  width: 358px;
 }
 
 .work-card-title {
-    font-family: 'DM Serif Display';
-    font-size: 25px;
-    font-weight: 400;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .work-card-desc {
-    margin-top: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .work-card-btn {
-    display: block;
-    margin-top: 52px;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 52px;
+  text-decoration: none;
+}
+
+.work-card-btn span {
+  color: var(--text-secondary);
+  transition: color 0.3s ease-in-out;
+}
+
+.work-card-btn:hover span {
+  color: var(--primary);
+}
+
+.work-card-btn img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.work-card-btn:hover img {
+  transform: translateX(5px);
 }
