@@ -1,20 +1,41 @@
-nav{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 44px 0 44px 0;
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
-nav #nav-menu{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    width: 624px;
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
 }
 
-nav #nav-menu a{
-    color: black;
-    font-size: 20px;
-    text-decoration: none;
+nav #nav-menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 624px;
 }
 
+nav #nav-menu a {
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav #nav-menu a::after {
+  background-color: var(--text-secondary);
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: width 0.3s ease-in-out;
+  width: 0;
+}
+
+nav #nav-menu a:hover::after {
+  width: 100%;
+}

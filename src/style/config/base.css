@@ -1,4 +1,4 @@
-@import url('variables.css');
+@import url("variables.css");
 
 *,
 *::before,
@@ -29,13 +29,16 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
+  color: var(--text-primary);
   font-family: "DM Serif Display", serif;
   margin: 0;
 }
 
 p,
-span {
+span,
+a {
+  color: var(--text-secondary);
   font-family: "Jost", sans-serif;
   margin: 0;
 }
@@ -52,14 +55,29 @@ span {
   padding: 26px 48px 26px 48px;
   font-size: 18px;
   background-color: var(--text-primary);
-  color: var(--neutral);
   border-radius: 18px;
   border: none;
   column-gap: 10px;
 }
 
-@media print {
+.button span {
+  color: var(--neutral);
+  transition: color 0.3s ease-in-out;
+}
 
+.button:hover span {
+  color: var(--primary);
+}
+
+.button img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.button:hover img {
+  transform: translateX(5px);
+}
+
+@media print {
   *,
   *::before,
   *::after {
