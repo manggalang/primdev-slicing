@@ -96,6 +96,7 @@ a {
 .section-title #sub-title {
   font-size: 22px;
   margin-top: 8px;
+  color: var(--text-secondary);
 }
 
 @media print {
