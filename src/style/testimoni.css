@@ -1,5 +1,5 @@
 .testimoni-section {
-    padding: 200px 0;
+    padding: 200px 0 0 0;
 }
 
 .testimoni-section .container {
@@ -8,11 +8,9 @@
     padding: 88px 24px;
 }
 
-.testimoni-section .container #section-title {
+.testimoni-section .container .section-title {
     font-weight: normal;
     font-size: 50px;
-    margin: auto;
-    text-align: center;
     width: 547px;
 }
 

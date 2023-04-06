@@ -84,6 +84,20 @@ a {
   margin-top: 94px;
 }
 
+.section-title{
+  margin: auto;
+  text-align: center;
+}
+
+.section-title #title {
+  font-size: 50px;
+}
+
+.section-title #sub-title {
+  font-size: 22px;
+  margin-top: 8px;
+}
+
 @media print {
   *,
   *::before,

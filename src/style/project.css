@@ -3,18 +3,7 @@
 }
 
 .project-section .section-title {
-    margin: auto;
-    text-align: center;
     width: 737px;
-}
-
-.section-title #title {
-    font-size: 50px;
-}
-
-.section-title #sub-title {
-    font-size: 22px;
-    margin-top: 8px;
 }
 
 .project-card-container {
@@ -69,7 +58,7 @@
     font-size: 22px;
 }
 
-.card-bottom #btn {
+.project-card .card-bottom #btn {
     background-color: var(--neutral);
     border: none;
     border-radius: 99px;

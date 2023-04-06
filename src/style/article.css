@@ -1,5 +1,5 @@
 .articles-section {
-    padding: 200px 0;
+    padding: 200px 0 0 0;
 }
 
 .articles-section .section-title {
@@ -60,6 +60,6 @@
     padding: 19px 23px;
 }
 
-#btn:nth-of-type(even) {
+.article-card:nth-child(even) .card-bottom #btn {
     background-color: white;
 }

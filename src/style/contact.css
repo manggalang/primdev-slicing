@@ -1,0 +1,23 @@
+.contact-section{
+    padding: 200px 0 0 0;
+}
+
+.contact-section .container{
+    background-color: var(--text-primary);
+    border-radius: 70px;
+    padding: 80px 0;
+}
+
+.contact-section .container .section-title #title, #sub-title{
+    color: white;
+}
+
+.contact-section .container .button{
+    background-color: var(--primary);
+    margin: auto;
+    margin-top: 32px;
+}
+
+.contact-section .container .button img{
+    
+}
