@@ -69,7 +69,7 @@
     font-size: 22px;
 }
 
-.card-btn #btn {
+.card-bottom #btn {
     background-color: var(--neutral);
     border: none;
     border-radius: 99px;

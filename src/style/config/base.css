@@ -77,6 +77,13 @@ a {
   transform: translateX(5px);
 }
 
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 94px;
+}
+
 @media print {
   *,
   *::before,
