@@ -1,0 +1,48 @@
+.footer {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 135px 0;
+}
+
+.footer .container {
+  display: grid;
+  gap: 101px;
+  grid-template-columns: 390px auto auto auto;
+}
+
+.footer .desc {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.footer-sosmed {
+  align-items: center;
+  display: flex;
+  gap: 54px;
+  margin-top: 32px;
+}
+
+.navigation-title {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.navigation-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.navigation-item {
+  color: var(--text-secondary);
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navigation-item:hover {
+  color: var(--primary);
+}
